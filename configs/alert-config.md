@@ -1,5 +1,16 @@
 # Alert Configuration
 
-CPU Alert: 80%
-Memory Alert: 85%
-Disk Alert: 90%
+CPU Alarm:
+- Threshold: 80%
+- Evaluation: 5 minutes
+
+Memory Alarm:
+- Threshold: 85%
+- Evaluation: 5 minutes
+
+Disk Alarm:
+- Threshold: 90%
+- Evaluation: 5 minutes
+
+Action:
+Send email notification (SNS simulation)
